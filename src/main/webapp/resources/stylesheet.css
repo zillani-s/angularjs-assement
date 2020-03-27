@@ -74,6 +74,9 @@ border:2px solid white;
     margin-top: 10px;
 }
 
+form {
+    padding: 10px;
+}
 
 table {
     outline: 2px solid #dee2e6;
@@ -85,13 +88,7 @@ table thead tr td {
     width: max-content;
     white-space: nowrap;
 }
-form  { 
-    padding: 30px 50px;
-    padding-top: 50px;
-    margin: 30px;
-    border: 2px solid rgb(168, 180, 184);
-    border-radius: 5px;
-    }
+
 #buttons {
     text-align: center;
     padding-top: 10px;
