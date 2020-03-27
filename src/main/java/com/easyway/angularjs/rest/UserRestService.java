@@ -68,7 +68,8 @@ public class UserRestService {
 		
 		return builder.build();
 	}
-	
+
+
 	public static Object readObject(String response, Class<?> obj)
 			throws JsonParseException, JsonMappingException, IOException {
 
@@ -77,5 +78,7 @@ public class UserRestService {
 		mapper.setAnnotationIntrospector(introspector);
 		return mapper.readValue(response, obj);
 	}
+
+
 
 }

@@ -20,6 +20,7 @@ public class UserService {
 			sqlSession.close();
 		}
 	}
+
 	
 	public List<User> getAllUsers() {
 		SqlSession sqlSession = MyBatisUtil.getSqlSessionFactory().openSession();

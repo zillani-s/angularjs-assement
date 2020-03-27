@@ -1,0 +1,109 @@
+.navbar {
+    background-color: #11ABE4;
+    align-items: center;
+     
+}
+.navbar-nav {
+
+    flex-wrap: wrap;
+    min-width:100%;
+    justify-content: space-around;
+
+ 
+}
+
+.navbar-toggler{
+    margin: 20px;
+}
+
+@media (max-width: 767px) {
+
+    .navbar-nav > li > a {
+    width: 100%;
+}
+    .navbar {
+        padding: 0px;
+
+    }
+
+}
+
+
+#logo {
+    margin: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.navbar-nav .btn {
+    background-color: #11ABE4;
+    padding: 15px 32px;
+    border: 2px solid #11ABE4;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+        
+}
+
+button:hover {
+border:2px solid white;
+
+}
+.navbar-nav .btn:hover {
+    border: 2px solid white;
+    color: white;
+}
+
+.navbar-nav button::-moz-focus-inner {
+    border: 0;
+  }
+
+  .navbar-nav button:active,.navbar-nav .btn:active {
+    outline:0;
+    background-color: white;
+    color: #11ABE4;
+}
+
+.navbar-nav  .btn:focus,.navbar-nav  .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+ 
+.container {
+    margin-top: 10px;
+}
+
+
+table {
+    outline: 2px solid #dee2e6;
+
+    
+}
+
+table thead tr td {
+    width: max-content;
+    white-space: nowrap;
+}
+form  { 
+    padding: 30px 50px;
+    padding-top: 50px;
+    margin: 30px;
+    border: 2px solid rgb(168, 180, 184);
+    border-radius: 5px;
+    }
+#buttons {
+    text-align: center;
+    padding-top: 10px;
+}
+/* a > button {
+    background-color: #11ABE4;
+    width: max-content;
+    padding: 15px 32px;
+    border: 2px solid #11ABE4;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    color: white;
+    
+} */

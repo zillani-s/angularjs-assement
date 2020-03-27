@@ -13,12 +13,12 @@ import com.easyway.angularjs.domain.User;
 
 public interface UserMapper {
 	
-	@Insert("INSERT INTO USER(USER_NAME, JOB_TITLE_NAME, FIRST_NAME, LAST_NAME, PREFERRED_NAME, EMPLOYEE_CODE, REGION, PHONE_NUMBER, EMAIL) "
+	@Insert("INSERT INTO user(USER_NAME, JOB_TITLE_NAME, FIRST_NAME, LAST_NAME, PREFERRED_NAME, EMPLOYEE_CODE, REGION, PHONE_NUMBER, EMAIL) "
 			+ "VALUES(#{userName}, #{jobTitleName}, #{firstName}, #{lastName}, #{preferredFullName}, #{employeeCode}, #{region}, #{phoneNumber}, #{email})")
 	@Options(useGeneratedKeys = true, keyProperty = "userId")
 	public void insertUser(User user);
 	
-	@Select("SELECT * FROM USER")
+	@Select("SELECT * FROM user")
 	@Results({ @Result(id = true, property = "userId", column = "USER_ID"),
 			@Result(property = "userName", column = "USER_NAME"),
 			@Result(property = "jobTitleName", column = "JOB_TITLE_NAME"),
