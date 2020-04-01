@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="ISO-8859-1">
+    <title>routing</title>
+    <link rel="stylesheet" type="text/css" href="head.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+
+    <script src = "//unpkg.com/@uirouter/angularjs@1.0.7/release/angular-ui-router.min.js"></script>  
+
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body ng-app="app">
+    <div class="logo">
+		<a href="home.html"><img
+			src="http://www.easywaytech.com/sites/all/themes/theme1034/easyway_logo_80.png"></a>
+	</div>
+    <nav>
+    <ul>
+        <li><a href="" ui-sref="home">HOME</a></li>
+
+        <li><a href="" ui-sref="services">SERVICES</a></li>
+
+        <li><a href="" ui-sref="career">CAREER</a></li>
+
+        <li><a href="" ui-sref="technologies">TECHNOLOGIES</a></li>
+        
+        <li><a href="" ui-sref="techblog">TECH BLOG</a></li>
+        
+        <li><a href="" ui-sref="contactus">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <div ui-view></div>
+</body>
+
+ <!--<body ng-controller="MainCtrl">
+    <div header></div>
+     <div ng-include="nav.html"></div>
+    <div style="margin-left: 10%;"ui-view></div>
+      </body> -->
+</html>
