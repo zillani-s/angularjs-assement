@@ -1,0 +1,29 @@
+<h2> Employees </h2> <br>
+<table ng-show="show" border="5">
+	<tr style="background-color:black; color:white" padding>
+	    <td> userId </td>
+        <td> username </td>
+		<td> jobTitleName </td>
+        <td> firstName </td>
+        <td> lastName </td>
+        <td> preferredFullName </td>
+        <td> employeeCode </td>
+        <td> region </td>
+        <td> phoneNumber </td>
+        <td> emailaddress </td>
+	</tr>
+	<tr ng-repeat="u in user">
+	    <td>{{u.userId}}</td>
+		<td>{{u.userName}}</td>
+		<td>{{u.jobTitleName}}</td>
+        <td>{{u.firstName}}</td>
+        <td>{{u.lastName}}</td>
+        <td>{{u.preferredFullName}}</td>
+        <td>{{u.employeeCode}}</td>
+        <td>{{u.region}}</td>
+        <td>{{u.phoneNumber}}</td>
+        <td>{{u.email}}</td>
+	</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Login page </title>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
+</head>
+<body>
+ <div ng-controller = "loginCtrl" align = "center">
+ <h3> Login </h3>
+  <form>
+     Username : <input type = "text" id = "username" ng-model = "user.username"> <br>
+     UserID : <input type = "text" id = "userId" ng-model = "user.userId"> <br>
+     <button type = "submit" id = "submit" ng-click = "submit()"> login </button>
+  </form>
+  </div>
+</body>
+</html>
