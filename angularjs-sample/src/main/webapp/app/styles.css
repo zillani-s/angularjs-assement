@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 20;
+	height: 20px;
+	background: white;
+}
+
+nav {
+	width: 200%;
+	padding: 5;
+	background: #1a73e8;
+	overflow: auto;
+	height: 40;
+}
+
+ul {
+	padding: 400;
+	margin: 0 0 0 180px;
+	list-style: none;
+}
+
+li {
+	float: left;
+	padding-left: 70px;
+	
+}
+
+
+nav a {
+	width: 130px;
+	display: block;
+	padding: 50px 20px;
+	text-decoration: inherit;
+	font-family: Arial;
+	color: #f2f2f2;
+	text-align: center;
+}
+
+nav a:hover {
+	background: purple;
+	transition: 0.5s;
+}
+div d{
+  background-color: lightblue;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
