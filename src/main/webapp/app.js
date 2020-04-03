@@ -5,12 +5,12 @@ myApp.config(function ($stateProvider) {
 	var loginState = {
 		name: 'login',
 		url: '/login',
-		templateUrl: "resources/login.html"
+		templateUrl: "resources/html/login.html"
 	}
 	var listState = {
 		name: 'list',
 		url: '/list',
-		templateUrl: "resources/list.html"
+		templateUrl: "resources/html/list.html"
 	}
 
 
