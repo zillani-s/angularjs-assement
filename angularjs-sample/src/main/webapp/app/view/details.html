@@ -1,0 +1,44 @@
+<div ng-bind="value"></div>
+<style>
+th { 
+	background-color: black;
+    text-align: center;
+    Color:white;
+            } 
+            td{
+            text-align: center;
+            background-color: chartreuse;
+            }.gfg { 
+                border-collapse:separate; 
+                border-spacing:0 15px; 
+            } 
+            
+</style>
+<center>
+<table border="2" class="gfg">
+	<tr>
+		<th>user_id</th>
+        <th>user_name</th>
+        <th>job_title_name</th>  
+        <th>first_name</th>
+        <th>last_name</th>
+        <th>preferredFullName</th>
+        <th>employeeCode</th>
+        <th>region</th>
+        <th>phoneNumber</th>
+        <th>email</th>          
+	</tr>
+	<tr ng-repeat="u in users">
+		<td>{{u.userId}}</td>
+        <td>{{u.userName}}</td>
+        <td>{{u.jobTitleName}}</td>
+        <td>{{u.firstName}}</td>
+        <td>{{u.lastName}}</td>
+         <td>{{u.preferredFullName}}</td>
+         <td>{{u.employeeCode}}</td>
+          <td>{{u.region}}</td>
+          <td>{{u.phoneNumber}}</td>
+          <td>{{u.email}}</td>
+          </tr>
+          </table>
+          </center>

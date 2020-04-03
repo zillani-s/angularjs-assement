@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>sampletask</title>
+
+<script type="text/javascript"
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.3/angular.min.js"></script>
+<script type="text/javascript"
+	src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.20/angular-ui-router.min.js"></script>
+
+<script type="text/javascript" src="app.js"></script>
+<link rel="stylesheet" href="styles.css">
+<style>
+.abc{
+  background-color: lightblue;
+
+}
+</style>
+
+
+</head>
+<body ng-app="sample">
+	<div>
+	<nav>
+		<ul>
+			<li><a href="" ui-sref="form">NEW USER</a></li>
+			<li><a href=" "ui-sref="details">USER DETAILS</a></li>
+			
+		</ul>
+	</nav>
+	</div>
+	<div class="abc" ui-view ></div>
+</body>
+</html>

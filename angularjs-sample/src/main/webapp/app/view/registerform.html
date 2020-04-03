@@ -1,0 +1,71 @@
+
+
+<div ng-controller="registerCtrl">
+<style>
+.a{
+padding: 2px 35px;
+
+	}
+	
+           td { 
+                width:150px; 
+                text-align:center; 
+                padding:5px 
+              
+            } 
+            table{
+            background-color: chartreuse;
+    border-spacing: 15px;
+    }
+</style>
+	<center><h1>REGISTRATOIN PAGE</h1></center>
+      <form  >
+      <center>
+      <table>
+        <tr>
+        <td>
+         <label>user_name</label>
+         </td>
+        <td><input type="text" name="userName" ng-model="userName" placeholder="userName" required></td>
+        </tr>
+<tr>
+        <td>
+        <label>job_title_name</label>
+        </td>
+        <td><input type="text" name="jobTitleName" ng-model="jobTitleName" placeholder="jobTitleName" required></td></tr>
+        <tr>
+        <td>
+        <label>first_name</label>
+        </td>
+        <td><input type="text" ng-model="firstName" name="firstName" placeholder="firstName" required></td>
+        </tr>
+        <tr>
+        <td>
+        <label>last_name</label>
+        </td><td><input type="text" ng-model="lastName" name="lastName" placeholder="lastName" required></td>
+        </tr>
+        <tr>
+        <td><label>preferredFullName</label></td><td><input type="text" ng-model="preferredFullname" name="preferredFullname" placeholder="preferredFullname" required></td>
+        </tr>
+        <tr>
+        <td><label>employeeCode</label></td><td><input type="text" ng-model="employeeCode" name="employeeCode" placeholder="employeeCode" required></td>
+        </tr>
+        <tr>
+        <td><label>region</label></td><td><input type="text" ng-model="region" name="region"  placeholder="region" required></td>
+        </tr>
+        <tr>
+        <td><label>phoneNumber</label></td><td><input type="phonenumber" name="phonenumber" ng-model="phonenumber" placeholder="phonenumber" required></td>
+        </tr>
+        <tr>
+        <td><label>email</label></td><td><input type="email" name="email" ng-model="email" placeholder="email" required></td>
+        </tr>
+        <tr>
+        <td></td>
+        <td><input class ="a" type="submit" ng-click=submit() value="SUBMIT"></td>
+       </tr>
+       </table>
+       </center>
+      </form>
+     
+      </div>
+     
