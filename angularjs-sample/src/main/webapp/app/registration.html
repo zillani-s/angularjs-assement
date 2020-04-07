@@ -1,0 +1,71 @@
+ <!DOCTYPE html>
+ <html>
+ <head> 
+ <title> register </title>
+ </head>
+ <body ng-app = "reg" ng-controller = "registrationCtrl">
+ <div class = "register" id = "registration" >
+  <h3> Employee Form </h3> <br>
+    <form class="form-horizontal"> 
+    <div class="form-group">
+        <label class="col-sm-2 col-form-label"> UserName </label>
+        <div class="col-sm-10">
+        <input ng-model ="user.userName" type="text" name="username" id="name"> <br><br>
+        </div>
+    </div>
+    <div class="form-group"> 
+        <label class="col-sm-2 col-form-label"> Designation </label>
+        <div class="col-sm-10">
+        <input ng-model = "user.jobTitleName" type = "text" name = "jobtitle" id = "name"> <br><br>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 col-form-label"> FirstName </label> 
+        <div class="col-sm-10">
+        <input ng-model = "user.firstName" type = "text" name = "firstname" id = "name"> <br><br>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 col-form-label"> Lastname </label>
+        <div class="col-sm-10">
+        <input ng-model = "user.lastName" type = "text" name = "lastname" id = "name"> <br><br>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 col-form-label"> Preferred name </label>
+        <div class="col-sm-10">
+        <input ng-model = "user.preferredFullName" type = "text" name = "preferredfullname" id = "name"> <br><br>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 col-form-label"> Employee Code </label>
+        <div class="col-sm-10">
+        <input ng-model = "user.employeeCode" type = "text" name = "employeecode" id = "name"><br><br>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 col-form-label"> Region </label>
+        <div class="col-sm-10">
+        <input ng-model = "user.region" type = "text" name = "re" id = "name"><br><br>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 col-form-label"> Phone Number </label>
+        <div class="col-sm-10">
+        <input ng-model = "user.phoneNumber" type = "text" name = "phonenumber" id = "num"> <br> <br>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 col-form-label"> Email </label>
+        <div class="col-sm-10">
+        <input ng-model = "user.email" type = "text" name = "email" id = "name"> <br> <br>
+        </div>
+    </div>
+        <div class="wrapper">
+        <button class="button" type = "submit" id = "sub" ng-click = "submit()"> SUBMIT </button>
+        </div>
+    </div>
+</form>
+</div>
+</body>
+</html>
