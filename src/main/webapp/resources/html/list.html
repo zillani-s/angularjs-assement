@@ -1,0 +1,36 @@
+<!-- <div class="container" ng-controller="listController">
+	<table class="table">
+		<tbody ng-repeat="(key,e) in employees">
+			<tr ng-if="key==0" scope="col">
+				<th class="table-dark" ng-repeat="(key,value) in e">{{key}}</th>
+			</tr>
+			<td scope="row" ng-repeat="value in e">{{value}}</td>
+		</tbody>
+	</table>
+</div> -->
+<div class="container" ng-controller="listController">
+	<table class="table table-bordered">
+		<thead class="table-dark">
+			<tr scope="col">
+				<td>ID</td>
+				<td>USER NAME</td>
+				<td>JOB TITLE</td>
+				<td>FIRST NAME</td>
+				<td>LAST NAME</td>
+				<td>PREF. FULL NAME</td>
+				<td>EMPLOY CODE</td>
+				<td>REGION</td>
+				<td>PHONE</td>
+				<td>EMAIL</td>
+
+
+
+			</tr>
+		</thead>
+		<tbody ng-repeat= "e in employees">
+			<tr ng-repeat="employ in e">
+				<td scope="row" ng-repeat="value in employ">{{value}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
