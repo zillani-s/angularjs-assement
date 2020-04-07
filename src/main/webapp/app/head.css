@@ -10,14 +10,15 @@ nav{
     padding:5;
     background:#1a73e8;
     overflow:auto;
-    height: 50;
+    height: 100px;
 }
 ul{
     padding:20;
-    margin:0 0 0 200px;
+    margin:0 0 0 100px;
     list-style:none;
 }
 li{
+	margin:0 0 0 150px;
     float:left;
 }
 .logo img{
@@ -33,9 +34,9 @@ nav a{
     font-family: Arial;
     color: #f2f2f2;
     text-align: center;
+    margin-top: 20px;
 }
-nav a:hover{
+ nav a:hover{
         background: purple;
         transition: 0.5s;
         }           
-     

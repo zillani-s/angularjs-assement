@@ -9,16 +9,16 @@ app.config(function($stateProvider, $locationProvider,  $urlRouterProvider) {
         templateUrl : "register.html", 
         controller : "regCtrl"
     });
-    $stateProvider.state('login', {  
-        url : '/login', 
-        templateUrl : "login.html", 
-        controller : "logCtrl"
-    });
-    $stateProvider.state('userList', {  
-        url : '/userList', 
-        templateUrl : "table.html", 
-        controller : "userListCtrl"
-    });
+    // $stateProvider.state('login', {  
+    //     url : '/login', 
+    //     templateUrl : "login.html", 
+    //     controller : "logCtrl"
+    // });
+    // $stateProvider.state('userList', {  
+    //     url : '/userList', 
+    //     templateUrl : "table.html", 
+    //     controller : "userListCtrl"
+    // });
     $stateProvider.state('users', {  
         url : '/users', 
         templateUrl : "table.html", 
@@ -44,42 +44,42 @@ app.config(function($stateProvider, $locationProvider,  $urlRouterProvider) {
     		
     	};
     }] 	);
-    app.controller('logCtrl', [ '$scope', '$http', '$state', function($scope,$http, $state) {
+//     app.controller('logCtrl', [ '$scope', '$http', '$state', function($scope,$http, $state) {
     		
-    		console.log("logCtrl");
-    		$scope.submit = function() {
-        		//TODO:: check if the user is valid
-//        		$http.get("http://localhost:8080/angularjs-sample/rest/angularjs/getUsers").then(
-//    			      function successCallback(response) {
-////    			    	console.log("response::", response);
-//    		      		var users = (response && response.data && response.data.menuItems) ? response.data.menuItems : [];
-//    		      		console.log($scope.emp)
-//    			      },
-//    			      function errorCallback(response) {
-//    			        console.log("Unable to perform get request");
-//    			      }
-//    			    );
-//        		
-        		$state.go('userList');
+//     		console.log("logCtrl");
+//     		$scope.submit = function() {
+//         		//TODO:: check if the user is valid
+// //        		$http.get("http://localhost:8080/angularjs-sample/rest/angularjs/getUsers").then(
+// //    			      function successCallback(response) {
+// ////    			    	console.log("response::", response);
+// //    		      		var users = (response && response.data && response.data.menuItems) ? response.data.menuItems : [];
+// //    		      		console.log($scope.emp)
+// //    			      },
+// //    			      function errorCallback(response) {
+// //    			        console.log("Unable to perform get request");
+// //    			      }
+// //    			    );
+// //        		
+//         		$state.go('userList');
     		
-    		};
-    }]);
+//     		};
+//     }]);
     	
-    	app.controller('userListCtrl', [ '$scope', '$http', '$state', function($scope,$http, $state) {
-    		$scope.show = true;
-    		$http.get("http://localhost:8080/angularjs-sample/rest/angularjs/getUsers").then(
-    			      function successCallback(response) {
-   			    	console.log("response::", response);
-    		      		$scope.emp = (response && response.data && response.data.menuItems) ? response.data.menuItems : [];
-    		      		console.log($scope.emp)
-    			      },
-    			      function errorCallback(response) {
-    			        console.log("Unable to perform get request");
-    			      }
-    			    );
+    	// app.controller('userListCtrl', [ '$scope', '$http', '$state', function($scope,$http, $state) {
+    	// 	$scope.show = true;
+    	// 	$http.get("http://localhost:8080/angularjs-sample/rest/angularjs/getUsers").then(
+    	// 		      function successCallback(response) {
+   		// 	    	console.log("response::", response);
+    	// 	      		$scope.emp = (response && response.data && response.data.menuItems) ? response.data.menuItems : [];
+    	// 	      		console.log($scope.emp)
+    	// 		      },
+    	// 		      function errorCallback(response) {
+    	// 		        console.log("Unable to perform get request");
+    	// 		      }
+    	// 		    );
     		
     		
-    	}]);
+    	// }]);
 
     	app.controller('usersCtrl', [ '$scope', '$http', '$state', function($scope,$http, $state) {
     		$scope.show = true;

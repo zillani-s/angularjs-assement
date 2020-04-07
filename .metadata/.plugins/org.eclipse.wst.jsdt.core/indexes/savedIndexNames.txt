@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+/home/bharath/Downloads/angularjs-assesment-develop/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2704616132.index
+4048145579.index
+118728560.index
+4013607337.index
+2135701339.index

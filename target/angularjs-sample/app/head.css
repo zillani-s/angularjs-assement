@@ -6,7 +6,7 @@ body{
     background:gray;
 }
 nav{
-    width:200%;
+    width:100%;
     padding:5;
     background:#1a73e8;
     overflow:auto;
@@ -26,7 +26,7 @@ li{
     margin-left: 10px;
 }
 nav a{
-    width: 170px;
+    width: 300px;
     display: block;
     padding: 50px 20px;
     text-decoration: inherit;

@@ -1,6 +1,6 @@
-/home/easyway/eclipse-workspace/angularjs-sample/src/main/java/com/easyway/angularjs/rest/UserRestService.java
-/home/easyway/eclipse-workspace/angularjs-sample/src/main/java/com/easyway/angularjs/rest/TestUser.java
-/home/easyway/eclipse-workspace/angularjs-sample/src/main/java/com/easyway/angularjs/services/MyBatisUtil.java
-/home/easyway/eclipse-workspace/angularjs-sample/src/main/java/com/easyway/angularjs/mapper/UserMapper.java
-/home/easyway/eclipse-workspace/angularjs-sample/src/main/java/com/easyway/angularjs/domain/User.java
-/home/easyway/eclipse-workspace/angularjs-sample/src/main/java/com/easyway/angularjs/services/UserService.java
+/home/bharath/workspace/angularjs-assesment-develop/src/main/java/com/easyway/angularjs/rest/TestUser.java
+/home/bharath/workspace/angularjs-assesment-develop/src/main/java/com/easyway/angularjs/services/UserService.java
+/home/bharath/workspace/angularjs-assesment-develop/src/main/java/com/easyway/angularjs/rest/UserRestService.java
+/home/bharath/workspace/angularjs-assesment-develop/src/main/java/com/easyway/angularjs/mapper/UserMapper.java
+/home/bharath/workspace/angularjs-assesment-develop/src/main/java/com/easyway/angularjs/services/MyBatisUtil.java
+/home/bharath/workspace/angularjs-assesment-develop/src/main/java/com/easyway/angularjs/domain/User.java
