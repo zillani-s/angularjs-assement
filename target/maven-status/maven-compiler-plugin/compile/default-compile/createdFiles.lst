@@ -1,0 +1,5 @@
+com/easyway/angularjs/services/MyBatisUtil.class
+com/easyway/angularjs/services/UserService.class
+com/easyway/angularjs/rest/UserRestService.class
+com/easyway/angularjs/domain/User.class
+com/easyway/angularjs/mapper/UserMapper.class

@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="ISO-8859-1">
+    <title>welcome</title>
+   	<link href="head.css" rel="stylesheet">
+	<link href="reg.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+
+    <script src = "//unpkg.com/@uirouter/angularjs@1.0.7/release/angular-ui-router.min.js"></script>  
+
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  
+  <body ng-app="reg">
+  <!--    <div class="logo">
+		<a href="home.html"><img
+			src="http://www.easywaytech.com/sites/all/themes/theme1034/easyway_logo_80.png"></a>
+	</div> -->
+    <nav>
+    <ul>
+        <li><a class="btn btn-primary" href="#" role="button" ui-sref="register">REGISTER</a></li>
+
+        <!-- <li><a href="" ui-sref="login">LOGIN</a></li> -->
+
+        <li><a class="btn btn-primary" href="#" role="button" ui-sref="users">USERS</a></li>
+
+       <!--   <li><a href="" ui-sref="technologies">TECHNOLOGIES</a></li>
+        
+        <li><a href="" ui-sref="techblog">TECH BLOG</a></li>
+        
+        <li><a href="" ui-sref="contactus">CONTACT US</a></li> -->
+        </ul>
+    </nav>
+    <div ui-view></div>
+</body>
+
+ <!--<body ng-controller="MainCtrl">
+    <div header></div>
+     <div ng-include="nav.html"></div>
+    <div style="margin-left: 10%;"ui-view></div>
+      </body> -->
+</html>
+
+
+<!--  <div stylestyle="position:relative;">
+		<ul class="nav nav-pills mt_buttons" roll="tablist">
+			<li class="mt_pills active" data-toggle="tab" roll="tab" area-controls="nav-today" id="nav-today-tab"><a href="">Now</a>
+			</li>
+			
+			<li class="mt_pills" data-toggle="tab" roll="tab" area-controls="nav-yesterday" id="nav-yesterday-tab"><a href="">Yesterday</a>
+			</li>
+			
+		</ul>
+	
+	</div>
+	<div id="main_table_countries_today_filter" class="dataTables_filter">
+		<label>"Search:"
+			<input type="search" class="form-control input-sm" placeholderarea-controls="main_table_countries_today">
+		</label>
+	
+	</div>
+	<div class="clear"></div>-->

@@ -1,0 +1,38 @@
+
+	<link href="users.css" rel="stylesheet">
+
+
+<body>
+    
+<table class="table" ng-show="show" border="1">
+ <thead class="thead-dark">
+	<tr>
+        <th>userId</th>
+        <th>userName</th>
+		<th>jobTitleName</th>
+        <th>firstName</th>
+        <th>lastName</th>
+        <th>preferredFullName</th>
+        <th>employeeCode</th>
+        <th>region</th>
+        <th>phoneNumber</th>
+        <th>emailaddress</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr ng-repeat="e in emp">
+		<td>{{e.userId}}</td>
+		<td>{{e.userName}}</td>
+		<td>{{e.jobTitleName}}</td>
+        <td>{{e.firstName}}</td>
+        <td>{{e.lastName}}</td>
+        <td>{{e.preferredFullName}}</td>
+        <td>{{e.employeeCode}}</td>
+        <td>{{e.region}}</td>
+        <td>{{e.phoneNumber}}</td>
+        <td>{{e.email}}</td>
+	</tr>
+	</tbody>
+</table>
+</body>
+</html>
